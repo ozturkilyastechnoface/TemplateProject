@@ -2,6 +2,7 @@ plugins {
     id(Plugins.library)
     id(Plugins.kotlin)
     kotlin(Plugins.kapt)
+    id(Plugins.hilt)
     id(Plugins.ksp)
 }
 

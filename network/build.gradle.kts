@@ -1,15 +1,12 @@
 plugins {
     id(Plugins.library)
     id(Plugins.kotlin)
+    id(Plugins.hilt)
     kotlin(Plugins.kapt)
 }
 
 android {
     namespace = "${Config.applicationId}.network"
-
-    buildFeatures {
-        buildConfig = true
-    }
 }
 
 dependencies {
