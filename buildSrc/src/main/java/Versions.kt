@@ -6,9 +6,9 @@ object Versions {
     const val room = "2.5.2"
 
     object AndroidX {
-        const val activityCompose = "1.7.2"
+        const val appCompact = "1.6.1"
+        const val constraint = "2.1.4"
         const val lifecycle = "2.6.1"
-        const val compose = "2.6.1"
         const val appcompat = "1.6.1"
         const val core = "1.10.1"
         const val material = "1.9.0"
@@ -35,7 +35,7 @@ object Versions {
         const val application = "8.0.1"
         const val kotlin = "1.7.20"
         const val ksp = "1.8.10-1.0.9"
-
+        const val ktlint = "11.5.1"
         object Kotlin {
             const val kapt = "1.7.20"
         }

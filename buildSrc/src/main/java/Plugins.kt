@@ -8,5 +8,6 @@ object Plugins {
     const val parcelize = "kotlin-parcelize"
     const val ksp = "com.google.devtools.ksp"
     const val kapt = "kapt"
+    const val ktlint = "org.jlleitschuh.gradle.ktlint"
 
 }

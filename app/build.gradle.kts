@@ -29,10 +29,7 @@ android {
             )
             isMinifyEnabled = false
             isDebuggable = true
-
         }
-
-
 
         release {
             proguardFiles(
@@ -44,7 +41,6 @@ android {
             isDebuggable = false
         }
     }
-
 
     packaging {
         resources {
@@ -59,7 +55,7 @@ android {
 
 dependencies {
 
-    //Project
+    // Project
     implementation(project(Modules.data))
     implementation(project(Modules.ui))
     implementation(project(Modules.core))
@@ -68,14 +64,15 @@ dependencies {
     implementation(project(Modules.local))
     implementation(project(Modules.utils))
 
-    //Androidx
-    implementation(Libs.AndroidX.activityCompose)
+    // Androidx
+    implementation(Libs.AndroidX.appCompact)
+    implementation(Libs.AndroidX.material)
+    implementation(Libs.AndroidX.constraint)
     implementation(Libs.AndroidX.lifecycle)
     implementation(Libs.AndroidX.core)
     implementation(Libs.AndroidX.splashScreen)
 
-    //Dagger
+    // Dagger
     implementation(Libs.Hilt.hilt)
-    implementation("androidx.appcompat:appcompat:1.6.1")
     kapt(Libs.Hilt.hiltKapt)
 }

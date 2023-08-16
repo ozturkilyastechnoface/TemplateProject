@@ -1,7 +1,7 @@
 object Config {
 
     const val compileSdkVersion = 33
-    const val applicationId = "com.example.template_project"
+    const val applicationId = "com.example.templateproject"
     const val minSdkVersion = 26
     const val targetSdkVersion = 33
     const val versionCode = 1

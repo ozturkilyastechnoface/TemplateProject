@@ -16,7 +16,7 @@ dependencies {
     implementation(project(Modules.core))
 
     //Androidx
-    implementation(Libs.AndroidX.activityCompose)
+    implementation(Libs.AndroidX.appCompact)
     implementation(Libs.AndroidX.lifecycle)
     implementation(Libs.AndroidX.composeLifecycle)
     implementation(Libs.AndroidX.core)

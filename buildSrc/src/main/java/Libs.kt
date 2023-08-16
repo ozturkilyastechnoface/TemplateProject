@@ -1,17 +1,22 @@
 object Libs {
 
     object AndroidX {
-        val activityCompose = buildString {
-            append("androidx.activity:activity-compose:")
-            append(Versions.AndroidX.activityCompose)
+        val appCompact = buildString {
+            append("androidx.appcompat:appcompat:")
+            append(Versions.AndroidX.appCompact)
         }
+        val constraint = buildString {
+            append("androidx.constraintlayout:constraintlayout:")
+            append(Versions.AndroidX.appCompact)
+        }
+
         val composeMateriel = buildString {
             append("androidx.compose.material:material:")
             append(Versions.AndroidX.composeMateriel)
         }
         val composeLifecycle = buildString {
             append("androidx.lifecycle:lifecycle-runtime-compose:")
-            append(Versions.AndroidX.activityCompose)
+            append(Versions.AndroidX.appCompact)
         }
         val lifecycle = buildString {
             append("androidx.lifecycle:lifecycle-runtime-ktx:")
